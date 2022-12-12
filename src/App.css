@@ -1,0 +1,9 @@
+.fire-rive{
+  z-index: 50;
+    position: fixed;
+    left: 100%;
+    transform: translateX(-100%);
+}
+.theme-text{
+  line-height:normal;
+}

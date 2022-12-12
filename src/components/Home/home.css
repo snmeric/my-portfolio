@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@500&display=swap");
+
+header {
+  padding-top: 7rem;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+.header__container{
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.body {
+  font-family: "Alexandria", sans-serif;
+}
+.hero-box {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spline {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 50%;
+}
+
+@media screen and (max-width:1024px){
+  hero{
+    height: 68vh;
+  }
+ 
+}
+
+@media screen and (max-width:600px){
+  hero{
+    height: 100vh;
+  }
+}
+/* @media (max-width: 1024px) {
+  #spline {
+    transform: scale(1) translateX(-100px);
+  }
+}
+@media (max-width: 800px) {
+  #spline {
+    transform: scale(0.9) translateX(50px);
+  }
+}
+@media (max-width: 600px) {
+  #spline {
+    transform: scale(0.55) translateX(100px);
+    right: auto;
+    left: 50%;
+    margin-left: -600px;
+  }
+}
+@media (max-width: 375px) {
+  #spline {
+    transform: scale(0.5) translatex(120px);
+  }
+} */
+.content {
+  font-family: "Alexandria", sans-serif;
+  max-width: 600px;
+  margin: 0;
+  top: 0;
+  font-weight: 600;
+  font-size: 55px;
+  display: flex;
+  flex-direction: row;
+
+  color: black;
+  left: 20%;
+  position: relative;
+
+  background-color: transparent;
+}

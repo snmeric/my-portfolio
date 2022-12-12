@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@500&display=swap");
+
+header {
+  height: 100vh;
+  overflow: hidden;
+}
+.header__container {
+  text-align: center;
+  height: 100%;
+}
+
+.body {
+  font-family: "Alexandria", sans-serif;
+}
+.hero-box {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spline {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* left: 50%; */
+}
+
+
+@media (max-width: 1024px) {
+  .spline {
+    transform: scale(0.8) translateX(30px) translateY(150px);
+  }
+  .cursor {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .spline {
+    transform: scale(0.8) translateX(40px) translateY(100px);
+  }
+  
+  
+}
+@media (max-width: 600px) {
+  .spline {
+    transform: scale(0.55) translateX(540px) translateY(150px);
+    right: auto;
+    left: 50%;
+    margin-left: -600px;
+  }
+ 
+ 
+}
+@media (max-width: 375px) {
+  /* .spline {
+    transform: scale(0.5) translatex(200px);
+  } */
+  
+ 
+}
+.content {
+  /* font-family: "Alexandria", sans-serif; */
+  position: relative;
+
+
+ 
+  /* display: flex;
+  flex-direction: row;
+  left: 20%;
+  margin: 0;
+  top: 0; */
+
+
+  
+}
+.type-color {
+  
+}
+
+.cursor {
+
+  position: relative;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 3;
+}

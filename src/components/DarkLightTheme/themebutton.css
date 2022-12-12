@@ -1,0 +1,32 @@
+.theme-button{
+    background-color: rgba(0, 0, 0, 0.3);
+   
+    height: 70px;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 2%;
+    top: 2%;
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+.theme-button a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+.theme-button a:hover{
+    background: rgba(0, 0, 0, 0.3);
+
+}
+/* nav a.active{
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--color-white);
+} */

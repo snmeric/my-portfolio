@@ -1,0 +1,12 @@
+.center {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .base-canvas-size {
+   
+    height: 300px;
+    width: 300px;
+  }
